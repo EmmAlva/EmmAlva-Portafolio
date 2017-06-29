@@ -17,19 +17,59 @@
 <body>
 	<header>
 		<div id="portada" class="container ">
+
+	
+
 			<div class="row">
-				<div class="col xl12 center-align ">
-					<h1 class="">EMMA TAPIA</h1>
+				<div class="col xl12 m6   center-align ">
+					<h1 class="hide-on-small-only show-on-large">ROCIO EMMA TAPIA ALVA</h1>
+					<h1 class="show-on-small hide-on-large-only">E M M A</h1>
 					<h5 class="">FrontEnd-Desarrolladora Web</h5>
-					<div class="btn-portada">
+					<div class="btn-portada hide-on-small-only">
 						<button class="btn ">Más información</button>
 						<button class="btn ">Portafolio</button>
 					</div>	
 				</div>
-			</div>			
+			</div>	
+				<a href="#" data-activates="slide-out" class="button-collapse"><i class="large mdi-navigation-menu"></i></a>
+
+			<nav>
+			   	<div class="nav-wrapper">
+			      
+			      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			      <ul class="right hide-on-med-and-down">
+			        <li><a href="sass.html">Sass</a></li>
+			        <li><a href="badges.html">Components</a></li>
+			        <li><a href="collapsible.html">Javascript</a></li>
+			        <li><a href="mobile.html">Mobile</a></li>
+			      </ul>
+			      <ul class="side-nav" id="mobile-demo">
+			        <li><a href="sass.html">Sass</a></li>
+			        <li><a href="badges.html">Components</a></li>
+			        <li><a href="collapsible.html">Javascript</a></li>
+			        <li><a href="mobile.html">Mobile</a></li>
+			      </ul>
+			    </div>
+
+			    	<nav>
+			    		
+			      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+
+						<ul class="collapsible" data-collapsible="accordion">
+						    <li>
+						      <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+						      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+							</li>			  
+						</ul>
+					</nav>
+			  </nav>
+
+
+	
 		</div>		
 		<!--marca personal  / menu-->
-		<div class="brand">
+		<div class="brand hide-on-small-only">
 			<h4 class="center-align">E</h4>
 		</div>			
 	</header>
@@ -182,36 +222,35 @@
 		</div>		
 	</section>
 	<section id="contact">
-		<div class="container">
+		<div class="container center-align">
 			<div class="row">
-				<div class="col xl12 center-align title">
+				<div class="col xl12  title">
 					<<h2>CONTACTO</h2>
 					<h3>Contáctame</h3>
-					<p>Si tienes alguna duda o consulta, no dudes en ponerte en contacto conmigo.</p>
+					<h5>Si tienes alguna duda o consulta, no dudes en ponerte en contacto conmigo.</h5>
 				</div>
 			</div>
-
-			<form action="">
-			<div>
-				<span class="icon-phone"></span>
-				<span>Teléfono:</span><span>951381875</span>
+			<div class="row ">
+				<div class="col xl12">
+					<div>
+						<span class="icon-phone"></span>
+						<h5><strong>Teléfono:</strong></h5><h5>951381875</h5>
+					</div>
+					<div>
+						<span class="icon-email"></span>
+						<h5><strong>Email:</strong></h5><h5>rocio.emma.tapia.alva@gmail.com</h5>
+					</div>
+				</div>
+				
 			</div>
-			<div>
-				<span class="icon-email"></span>
-				<span>Email:</span><span>rocio.emma.tapia.alva@gmail.com</span>				
-			</div>
-		</form>
-		<div class="redes">
-			<span class="icons-red">Git</span>
-			<span class="icons-red">COde</span>
-			<span class="icons-red">Link</span>
-			<span class="icons-red">
-				otro
-			</span>
-		</div>		
-		</div>
 
-		
+			<div class="redes">
+				<span class="icons-red">Git</span>
+				<span class="icons-red">COde</span>
+				<span class="icons-red">Link</span>
+				<span class="icons-red">otro</span>
+			</div>		
+		</div>	
 			
 	</section>
 	<footer class="text-center picker__footer">
