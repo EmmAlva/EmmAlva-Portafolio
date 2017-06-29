@@ -5579,12 +5579,12 @@ button.btn-floating {
   position: fixed;
   left: 0;
   right: 0;
-  background-color: #fafafa;
-  padding: 0;
-  max-height: 70%;
-  width: 55%;
+  background-color: transparent;
+  padding: 20px 0; /*modify*/
+  max-height: 85%;  /*modify*/
+  width: 85%;  /*modify*/
   margin: auto;
-  overflow-y: auto;
+  /*overflow-y: auto;*/
   border-radius: 2px;
   will-change: top, opacity;
 }
@@ -5600,7 +5600,7 @@ button.btn-floating {
 }
 
 .modal .modal-content {
-  padding: 24px;
+  padding: 24px 5px;  /*modify*/
 }
 
 .modal .modal-close {
@@ -5632,6 +5632,7 @@ button.btn-floating {
   background: #000;
   display: none;
   will-change: opacity;
+
 }
 
 .modal.modal-fixed-footer {
