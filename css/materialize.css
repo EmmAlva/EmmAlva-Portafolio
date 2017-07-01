@@ -5584,7 +5584,7 @@ button.btn-floating {
   max-height: 85%;  /*modify*/
   width: 85%;  /*modify*/
   margin: auto;
-  /*overflow-y: auto;*/
+  overflow-y: auto;
   border-radius: 2px;
   will-change: top, opacity;
 }
