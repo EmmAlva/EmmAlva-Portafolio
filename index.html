@@ -8,6 +8,7 @@
 	<title>Emma Tapia</title>
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="css/materialize.css">
+	<link rel="stylesheet" href="fonts/style.css">
 	<link rel="stylesheet" href="css/main.css">
 	<!--FONTS-->
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Montserrat:300,400,500|Raleway:300,400,400i,500,600,700,800,900" rel="stylesheet">
@@ -17,21 +18,21 @@
 <body>
 	<header>
 		<div id="portada" class="container ">
-			<div class="row" style="z-index:100">
-				<div class="col xl12   center-align ">
+			<div class="row">
+				<div class="col xl12  center-align ">
 					<h1 class="hide-on-med-and-down">ROCIO EMMA TAPIA ALVA</h1>
 					<h1 class="show-on-small hide-on-large-only">E M M A</h1>
 					<h5 class="">FrontEnd-Desarrolladora Web</h5>
 					<div class="btn-portada hide-on-small-only">
-						<button class="btn ">Más información</button>
-						<button class="btn ">Portafolio</button>
+						<button class="btn-flat btn-format btn-inicial ">Más información</button>
+						<button class="btn-flat btn-format btn-inicial ">Portafolio</button>
 					</div>
 				</div>
 			</div>
 
 		<!--DROPDOWN TO MENU-->
 			 <!-- Dropdown Trigger -->
-			 <a class='dropdown-button hide-on-med-and-up' data-constrainWidth='false'  href='#' data-activates='dropdown1' style="position: absolute;top: 0; right:0px"><i class="material-icons md-36 bg_color">reorder</i></a>
+			 <a class='dropdown-button hide-on-large-only show-on-small' data-constrainWidth='false'  href='#' data-activates='dropdown1' style="position: absolute;top: 0; right:0px"><i class="material-icons md-36 bg_color">reorder</i></a>
 <!-- data-beloworigin="true"  para mostrar el icono menu -->
 			 <!-- Dropdown Structure -->
 			  <ul id='dropdown1' class='dropdown-content '>
@@ -60,42 +61,38 @@
 					<h3>Acerca de <strong>Mi</strong></h3>
 					<p>Hola, me llamo Emma. Soy FrontEnd Developer, egresada de Laboratoria</p>
 				</div>
-				<div class="col xl12 center-align title title2 hide-on-med-and-up">
+				<div class="col md12 center-align title title2 hide-on-large-only">
 					<h2>CONÓCEME2</h2>
 					<h3>Acerca de <strong>Mi</strong></h3>
 					<p>Hola, me llamo Emma. Soy FrontEnd Developer, egresada de Laboratoria</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col xl5 ">
-					<img src="img/photo.jpg" alt="perfil" class="photo responsive-img">
-				</div>
-				<div class="col xl7">
-					<div class="description">
+				<div class="col xl5 s8 offset-xl1 offset-s2 p-0 center-block">
+					<div class="description center">
+						<!-- <h4>Titulo interesante</h4> -->
 						<p>Durante mi experiencia en el programa aprendí diversas herramientas de programación y habilidades para resolver problemas que pueden ser aplicados en el emprendimiento u organización que gestiona.</p>
-						<br>
 						<p>Me apasiona la innovación tecnológica y creo que encaja perfectamente en cualquier rubro como por ejemplo las ciencias naturales, que también es un tema que me causa interés; por lo que estoy segura que seré de mucha utilidad para construir sus sueños.</p>
-						<br>
-						<button class="ver-mas">Ver más
-						</button>
 						<div class="enlaces">
-							<span class="icon-about">CV</span>
-							<span class="icon-about">in</span>
+							<button class="verMas btn-format btn-flat">Ver más
+							</button>
+							<!-- <span class="icon-profile"></span> -->
+							<!-- <span class="icon-linkedin2"></span> -->
 						</div>
-					</div >
 				</div>
 			</div>
+			<img src="img/Emma_Tapia_06.JPG" alt="perfil" class="col xl5 hide-on-med-and-down photo responsive-img p-0">
 		</div>
 	</section>
 
-	<section id="portfolio">
+	<section id="portfolio" style="background-color: gray">
 		<div class="container">
 			<div class="row">
 				<div class="col xl12 center-align title hide-on-med-and-down">
 					<h2>PORTAFOLIO</h2>
 					<h3>Mi <strong>Portafolio</strong></h3>
 				</div>
-				<div class="col xl12 center-align title title2 hide-on-med-and-up">
+				<div class="col xl12 center-align title title2 hide-on-large-only">
 					<h2>PORTAFOLIO</h2>
 					<h3>Mi <strong>Portafolio</strong></h3>
 				</div>
@@ -131,28 +128,6 @@
 					  <!-- Modal Structure -->
 					  <div id="modal1" class="modal">
 					    <div class="modal-content ">
-					    <!--HORIZONTAL CARD
-
-					    <div class="col s12 m7 xl12">
-						    <div class="card horizontal">
-						      <div class="card-image">
-						        <img src="https://lorempixel.com/700/190/nature/6">
-						      </div>
-						      <div class="card-stacked">
-						        <div class="card-content">
-						          <p>I am a very simple card. I am good at containing small bits of information.</p>
-						        </div>
-						        <div class="card-action">
-						          <a href="#">This is a link</a>
-						        </div>
-						      </div>
-						    </div>
-						  </div>-->
-
-
-
-
-<a href=""><i class="material-icons right" style="position: absolute;top: 0">close</i></a>
 					    	<div class="row" style="background-color: peru;margin: 0">
 					    		<div class="col xl6 m6 s12 p-0">
 			    					<img class="responsive-img" src="img/fondo/leavehand.jpg" alt="">
@@ -165,13 +140,10 @@
 					    				<p>EL proyecto tuvo como finalidad demostrar el uso de las herraientas aprendidas durante el srping..., el tiempo permitido para la ejecución fue de ..... ENtre las dificultades encontradas se encontraron; sin embargo se pudo solciona plicando....</p>
 					    				<a href="">MAS DETALLES</a>
 				    				</div>
-
-
 				    			</div>
 					    	</div>
 					    </div>
 					  </div>
-
 				</div>
 				<div class="col xl4">
 					<div class="proyecto">
@@ -231,14 +203,14 @@
 		</div>
 	</section>
 	<section id="contact">
-		<div class="container center-align">
+		<div class="container-fluid center-align">
 			<div class="row">
 				<div class="col xl12  title hide-on-med-and-down">
 					<h2>CONTACTO</h2>
 					<h3>Contáctame</h3>
 					<h5>Si tienes alguna duda o consulta, no dudes en ponerte en contacto conmigo.</h5>
 				</div>
-				<div class="col xl12  title title2 hide-on-med-and-up">
+				<div class="col xl12  title title2 hide-on-large-only">
 					<h2>CONTACTO2</h2>
 					<h3>Contáctame</h3>
 					<h5>Si tienes alguna duda o consulta, no dudes en ponerte en contacto conmigo.</h5>

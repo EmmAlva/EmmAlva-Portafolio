@@ -29,6 +29,14 @@
 .p-0{
 	padding: 0 !important;
 }
+.btn-format{
+	border: 1px solid #fff;
+	background: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+/*ESRTUCTURA*/
 body{
 	margin: 0;
  	padding: 0;
@@ -48,8 +56,12 @@ header .container{
 }
 #portada{
 		background-color: darkgray;
-    padding: 153px 85px;
+    padding: 183px 85px;
     /*opacity: 0.9;*/
+}
+.btn-inicial{
+	background: rgb(42, 201, 75);
+	border: none;
 }
 
 .brand{
@@ -69,11 +81,18 @@ header .container{
 	color: #000;
 	}
 /*CONOCEME*/
+section{
+	padding: 50px 0;
+}
 h2{
-	font-weight: 900;
+	font-weight: 600;
 	letter-spacing: 5px;
-	font-size: 8.5rem;
-	color: rgb(230,280,244);
+	font-size: 7.5rem;
+	color: #e0e0e0 ;
+	opacity: 0.7;
+}
+strong{
+	color: rgb(42, 201, 75);
 }
 
 .title2 h2{
@@ -94,17 +113,30 @@ h2{
 .title h2 + h3{
 	position: absolute;
 	bottom: 35px;
-	right: 30%;
+	right: 40%;
 	text-align: center;
 	font-size: 2.2rem;
 }
 #about .row + .row{
-	background-color: orange;
-
+/*background: rgb(11, 171, 124);*/
 }
+.photo{
+	/*border: 1px solid rgb(5, 131, 94);*/
+}
+
+
+/*.photo{
+	background-image: url('../img/Emma_Tapia_06.JPG');
+	background-position: center;
+	height: 20px;
+}*/
+
 .description{
-	background-color: #1de798;
-	padding: 30px;
+	font-size: 0.9rem;
+	padding: 6px 15px;
+	background: rgb(181, 88, 193);
+
+	color: white;
 }
 
 /*PORTAFOLIO*/
@@ -184,11 +216,15 @@ h2{
 
 /*CONTACTO*/
 #contact{
+	padding-bottom: 0;
+}
+#contact > div{
 	background-image: url("../img/fondo-contact/road.jpg");
 	background-size: cover;
 	width: 100%;
 	height: 100vh;
 	color: #fff;
+
 }
 
 /*FOOTER*/
@@ -196,7 +232,7 @@ footer{
 	background: green;
 	padding: 5px;
 }
-p{
+footer p{
 	margin:0;
 	color: #fff;
 }
