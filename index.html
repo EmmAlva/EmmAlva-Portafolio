@@ -12,47 +12,50 @@
 	<link rel="stylesheet" href="css/main.css">
 	<!--FONTS-->
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Montserrat:300,400,500|Raleway:300,400,400i,500,600,700,800,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Aladin|Devonshire|Leckerli+One|Molle:400i|Norican|Pacifico" rel="stylesheet">
 	<!--ICONS-->
-	<link rel="icon" type="image/png" href="">
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png">
 </head>
 <body>
 	<header>
-		<div id="portada myCanvas1" class="container ">
+		<div id="portada" class="portada container">
+		<canvas id="myCanvas" class="hide-on-large-only"  ></canvas>
 			<div class="row">
 				<div class="col xl12  center-align ">
-					<h1 class="hide-on-med-and-down">ROCIO EMMA TAPIA ALVA</h1>
-					<h1 class="show-on-small hide-on-large-only">E M M A</h1>
-					<h5 class="">FrontEnd-Desarrolladora Web</h5>
-					<div class="btn-portada hide-on-small-only">
-						<button class="btn-flat btn-format btn-inicial ">Más información</button>
-						<button class="btn-flat btn-format btn-inicial ">Portafolio</button>
+					<h1 class="name hide-on-med-and-down">ROCIO EMMA TAPIA ALVA</h1>
+					<h1 class="name-sm show-on-small hide-on-large-only text-center">EM MA</h1>
+					<h5 class="sub_title">FrontEnd-Desarrolladora Web</h5>
+					<div class="btn-portada hide-on-med-and-down">
+                        <a href="#about" class="btn-format btn-inicial">MÁS INFORMACIÓN</a>
+						<a href="#portfolio" class="btn-format btn-inicial">PORTAFOLIO</a>
 					</div>
 				</div>
 			</div>
 
 		<!--DROPDOWN TO MENU-->
 			 <!-- Dropdown Trigger -->
-			 <a class='dropdown-button hide-on-large-only show-on-small' data-constrainWidth='false'  href='#' data-activates='dropdown1' style="position: absolute;top: 0; right:0px"><i class="material-icons md-36 bg_color">reorder</i></a>
-<!-- data-beloworigin="true"  para mostrar el icono menu -->
+			 <a class='dropdown-button hide-on-large-only show-on-small menu' data-constrainWidth='false'  href='#' data-activates='dropdown1'><i class="material-icons md-52 bg_color">reorder</i></a>
+            <!-- data-beloworigin="true"  para mostrar el icono menu -->
 			 <!-- Dropdown Structure -->
 			  <ul id='dropdown1' class='dropdown-content '>
 			  	<!-- <li><a href=""><i class="material-icons right">close</i></a>Cerrar</li> -->
-					<li><a href="#">RElleno</a></li>
-					 <li class="divider"></li>
-			    <li><a href="#!">ACERCA DE MI</a></li>
-			    <li><a href="#!">PORTAFOLIO</a></li>
-			    <li><a href="#!">CONTACTO</a></li>
-			    <li><a href="#!"></a></li>
+                <li class=""><a class="right close">&times;</a></li>
+                <li class="divider"></li>
+			    <li><a class="center-align" href="#about">ACERCA DE MI</a></li>
+			    <li><a class="center-align" href="#portfolio">PORTAFOLIO</a></li>
+			    <li><a class="center-align" href="#contact">CONTACTO</a></li>
+			   
 			  </ul>
 
 
 
 		</div>
 		<!--marca personal  / menu-->
-		<div class="brand hide-on-small-only">
+		<div class="brand hide-on-med-and-down valign-wrapper">
 			<h4 class="center-align">E</h4>
 		</div>
 	</header>
+	
 	<section id="about" >
 		<div class="container">
 			<div class="row">
@@ -74,17 +77,16 @@
 						<p>Durante mi experiencia en el programa aprendí diversas herramientas de programación y habilidades para resolver problemas que pueden ser aplicados en el emprendimiento u organización que gestiona.</p>
 						<p>Me apasiona la innovación tecnológica y creo que encaja perfectamente en cualquier rubro como por ejemplo las ciencias naturales, que también es un tema que me causa interés; por lo que estoy segura que seré de mucha utilidad para construir sus sueños.</p>
 						<div class="enlaces">
-							<button class="verMas btn-format btn-flat">Ver más
-							</button>
+							<button class="verMas btn-format btn-flat" style="vertical-align:middle"><span>Ver más </span></button>
 							<!-- <span class="icon-profile"></span> -->
 							<!-- <span class="icon-linkedin2"></span> -->
 						</div>
-				</div>
-			</div>
+				    </div>
+			    </div>
+            </div>
 			<img src="img/Emma_Tapia_06.JPG" alt="perfil" class="col xl5 hide-on-med-and-down photo responsive-img p-0">
 		</div>
 	</section>
-
 	<section id="portfolio" style="background-color: gray">
 		<div class="container">
 			<div class="row">

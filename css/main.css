@@ -2,6 +2,14 @@
 	font-family: 'Raleway', sans-serif;
 	/*font-family: 'Lato', sans-serif;
 	font-family: 'Montserrat', sans-serif;*/
+/*
+    font-family: 'Leckerli One', cursive;
+    font-family: 'Norican', cursive;
+    font-family: 'Aladin', cursive;
+    font-family: 'Molle', cursive;
+    font-family: 'Devonshire', cursive;
+    font-family: 'Pacifico', cursive;
+*/
 
 }
 /*ICONS*/
@@ -10,6 +18,8 @@
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
+.material-icons.md-52 { font-size: 52px; }
+
 
 /* Rules for using icons as black on a light background. */
 .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
@@ -22,7 +32,7 @@
 
 .material-icons.bg_color{
 	color: #fff;
-	background: gray;
+/*	background: gray;*/
 }
 
 /*REUSABLES*/
@@ -34,6 +44,8 @@
 	background: none;
 	color: #fff;
 	font-weight: bold;
+    font-size: 0.9rem;
+    
 }
 
 /*ESRTUCTURA*/
@@ -54,20 +66,75 @@ header .container{
 	display: flex;
 	justify-content: center;
 }
-#portada{
-		background-color: darkgray;
-    padding: 183px 85px;
-    /*opacity: 0.9;*/
+.row{
+    z-index: 2;
 }
+
+
+.portada{
+    background: none;
+}
+
+@media screen and (min-width: 800px) {
+    .portada{
+       background-color: rgba( 69, 59, 57, 0.75 )  ;
+        padding: 95px;
+        width: 90%;
+    }
+    .sub_title{
+    font-size: 2rem; /*38px*/
+    }    
+}
+
+.name{
+    font-weight: bold;
+    font-size: 8rem; /*127px*/
+    letter-spacing: 5px;
+    margin: 0;
+}
+.name-sm{
+    font-weight: bold;
+    font-size: 11rem; 
+    letter-spacing: 40px;
+    margin-bottom: -10px;
+    margin-left: 30px;
+ 
+}
+.sub_title{
+    font-size: 1.6rem; /*22px*/
+   margin-top: 5px;
+}
+.menu{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.btn-portada{
+    margin-top: 40px;
+}
+
+
+/*CANVAS*/
+#myCanvas{
+    position: absolute;
+    top: 130px;
+    width: 500px;
+    height: 500px;
+/*    border: 2px solid blue;*/
+    background-color:  rgba( 69, 59, 57, 0.75 );
+    
+}
+
 .btn-inicial{
 	background: rgb(42, 201, 75);
-	border: none;
+/*	border: none;*/
+    padding: 15px;
 }
 
 .brand{
 	position: absolute;
-	top: 2%;
-	left: 2%;
+	top: 5%;
+	left: 3%;
 	font-weight:bold;
 	font-style: italic;
 	font-size: 2rem;
@@ -78,8 +145,28 @@ header .container{
 }
 
 .brand h4{
+    font-family: 'Leckerli One', cursive;
 	color: #000;
+    font-size: 50px;
+    margin-left: 10px;
 	}
+.close{
+    line-height: inherit !important;
+    font-size: 50px !important;
+    
+}
+.dropdown-content li a{
+    font-weight:500;
+    font-size: 2rem;
+    line-height: 2;
+}
+
+.divider{
+    background: none;
+}
+.dropdown-content{
+    width: 550px;
+}
 /*CONOCEME*/
 section{
 	padding: 50px 0;
@@ -120,16 +207,6 @@ strong{
 #about .row + .row{
 /*background: rgb(11, 171, 124);*/
 }
-.photo{
-	/*border: 1px solid rgb(5, 131, 94);*/
-}
-
-
-/*.photo{
-	background-image: url('../img/Emma_Tapia_06.JPG');
-	background-position: center;
-	height: 20px;
-}*/
 
 .description{
 	font-size: 0.9rem;
@@ -138,6 +215,49 @@ strong{
 
 	color: white;
 }
+
+/*BOTON VER MAS*/
+
+.verMas {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.verMas span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.verMas span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.verMas:hover span {
+  padding-right: 25px;
+}
+
+.verMas:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 
 /*PORTAFOLIO*/
 /*.proyecto img{
