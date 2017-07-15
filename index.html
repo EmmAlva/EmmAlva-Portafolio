@@ -19,36 +19,32 @@
 <body>
 	<header>
 		<div id="portada" class="portada container">
-		<canvas id="myCanvas" class="hide-on-large-only"  ></canvas>
-			<div class="row">
-				<div class="col xl12  center-align ">
-					<h1 class="name hide-on-med-and-down">ROCIO EMMA TAPIA ALVA</h1>
-					<h1 class="name-sm show-on-small hide-on-large-only text-center">EM MA</h1>
-					<h5 class="sub_title">FrontEnd-Desarrolladora Web</h5>
-					<div class="btn-portada hide-on-med-and-down">
-                        <a href="#about" class="btn-format btn-inicial">MÁS INFORMACIÓN</a>
-						<a href="#portfolio" class="btn-format btn-inicial">PORTAFOLIO</a>
+			<canvas id="myCanvas" class="hide-on-large-only"  ></canvas>
+				<div class="row">
+					<div class="col xl12  center-align ">
+						<h1 class="name hide-on-med-and-down">ROCIO EMMA TAPIA ALVA</h1>
+						<h1 class="name-sm show-on-small hide-on-large-only text-center">EM</h1>
+						<h1 class="name-sm show-on-small hide-on-large-only text-center">MA</h1>
+						<h5 class="sub_title">Desarrolladora Web Frontend</h5>
+						<div class="btn-portada hide-on-med-and-down">
+	                        <a href="#about" class="btn-format btn-inicial">MÁS INFORMACIÓN</a>
+							<a href="#portfolio" class="btn-format btn-inicial">PORTAFOLIO</a>
+						</div>
 					</div>
-				</div>
-			</div>
-
-		<!--DROPDOWN TO MENU-->
-			 <!-- Dropdown Trigger -->
-			 <a class='dropdown-button hide-on-large-only show-on-small menu' data-constrainWidth='false'  href='#' data-activates='dropdown1'><i class="material-icons md-52 bg_color">reorder</i></a>
-            <!-- data-beloworigin="true"  para mostrar el icono menu -->
-			 <!-- Dropdown Structure -->
-			  <ul id='dropdown1' class='dropdown-content '>
-			  	<!-- <li><a href=""><i class="material-icons right">close</i></a>Cerrar</li> -->
-                <li class=""><a class="right close">&times;</a></li>
-                <li class="divider"></li>
-			    <li><a class="center-align" href="#about">ACERCA DE MI</a></li>
-			    <li><a class="center-align" href="#portfolio">PORTAFOLIO</a></li>
-			    <li><a class="center-align" href="#contact">CONTACTO</a></li>
-			   
-			  </ul>
-
-
-
+				</div>			
+      
+		      <a href="#" data-activates="mobile-demo" class="button-collapse  hide-on-large-only menu "><i class="material-icons md-52 md-light">menu</i></a>
+		      
+		      <ul class="side-nav " id="mobile-demo">
+		        <li><a href="sass.html">Acerca de Mi</a></li>
+		        <li><a href="badges.html">Portafolio</a></li>
+		        <li class="menu_contact"><a href="collapsible.html">Contacto</a></li>
+		        <br>
+		        <br>
+		        <li ><a href="mobile.html"><span class="black-text md-24 m-15 icon-github"></span>|<span class="black-text md-24 m-15 icon-linkedin"></span>|<span class="black-text md-24 m-15 icon-whatsapp"></span>|<span class="black-text md-24 m-15 icon-codepend"></span></a></li>
+		        
+		      </ul>
+       
 		</div>
 		<!--marca personal  / menu-->
 		<div class="brand hide-on-med-and-down valign-wrapper">
@@ -62,32 +58,34 @@
 				<div class="col xl12 center-align title hide-on-med-and-down">
 					<h2>CONÓCEME</h2>
 					<h3>Acerca de <strong>Mi</strong></h3>
-					<p>Hola, me llamo Emma. Soy FrontEnd Developer, egresada de Laboratoria</p>
+					<h5>Hola, me llamo Emma. Soy FrontEnd Developer, egresada de <strong>Laboratoria</strong></h5>
 				</div>
-				<div class="col md12 center-align title title2 hide-on-large-only">
+				<div class="col md12 center-align  title2 hide-on-large-only">
 					<h2>CONÓCEME2</h2>
 					<h3>Acerca de <strong>Mi</strong></h3>
-					<p>Hola, me llamo Emma. Soy FrontEnd Developer, egresada de Laboratoria</p>
+					<h5>Hola, me llamo Emma. Soy FrontEnd Developer, egresada de <strong>Laboratoria</strong></h5>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col xl5 s8 offset-xl1 offset-s2 p-0 center-block">
+			<div class="row" >
+				<div class="col xl6 p-0  offset-s2 center-block "  >
 					<div class="description center">
 						<!-- <h4>Titulo interesante</h4> -->
 						<p>Durante mi experiencia en el programa aprendí diversas herramientas de programación y habilidades para resolver problemas que pueden ser aplicados en el emprendimiento u organización que gestiona.</p>
 						<p>Me apasiona la innovación tecnológica y creo que encaja perfectamente en cualquier rubro como por ejemplo las ciencias naturales, que también es un tema que me causa interés; por lo que estoy segura que seré de mucha utilidad para construir sus sueños.</p>
-						<div class="enlaces">
-							<button class="verMas btn-format btn-flat" style="vertical-align:middle"><span>Ver más </span></button>
-							<!-- <span class="icon-profile"></span> -->
-							<!-- <span class="icon-linkedin2"></span> -->
+						<div class="enlaces center">
+							<span class="icons icon-file-pdf "></span>
+							<span class="icons icon-linkedin2"></span>
 						</div>
-				    </div>
+					</div>						
+					
+				    
 			    </div>
+           			<img src="img/Emma_Tapia_06.JPG" alt="perfil" class="col xl6 hide-on-med-and-down photo responsive-img p-0">
+
             </div>
-			<img src="img/Emma_Tapia_06.JPG" alt="perfil" class="col xl5 hide-on-med-and-down photo responsive-img p-0">
 		</div>
 	</section>
-	<section id="portfolio" style="background-color: gray">
+	<section id="portfolio" class="grey lighten-3">
 		<div class="container">
 			<div class="row">
 				<div class="col xl12 center-align title hide-on-med-and-down">
@@ -104,128 +102,235 @@
 					<div class="proyecto">
 						<img src="img/fondo/leave-reves.jpg" alt="" class="responsive-img">
 						<div class="overlay">
-							<div class="text center-align">
+							<div class="white-text center-align">
 								<span>Temas aplicados</span>
 								<h3>Titulo</h3>
-								<span class="links-modal">like-icon</span>
-								<span class="links-modal">icon-expand</span>
+								<span class="links-modal icon-heart"></span>
+								<span class="links-modal waves-effect waves-light icon-link " data-target="modal1"></span>
 							</div>
 						</div>
 					</div>
 				</div>
+
+				  <!-- Modal Structure -->
+				  <div id="modal1" class="modal" >
+				    <div class="modal-content">
+			    		<button class="modal-close right " data-dismiss="modal" aria-label="Close"><a class="black-text md-52 "  aria-hidden="true">&times;</a>
+			    		</button>
+						<div class="row m-0 content " >
+							<img class="col xl6 m12 s12 responsive-img p-0" src="img/fondo/leave-reves.jpg" alt="">	
+							<div class="col xl6 m12 s12" >
+								<h1 class="m-0 light-text">01</h1>
+			    				<h4 class="">TITULO</h4>
+			    				<p>EL proyecto tuvo como finalidad demostrar el uso de las herraientas aprendidas durante el srping..., el tiempo permitido para la ejecución fue de ..... ENtre las dificultades encontradas se encontraron; sin embargo se pudo solciona plicando....</p>
+			    				<a class="black-text" href="">VER PROYECTO</a>
+			    				<span class="icons icon-github right"></span>
+								
+							</div>
+				    	</div>
+				    </div>
+				  </div> 
+
 				<div class="col xl4 ">
 					<div class="proyecto">
 						<img src="img/fondo/leavehand.jpg" alt="">
 						<div class="overlay">
-							<div class="text center-align">
+							<div class="white-text center-align">
 								<span>Temas aplicados</span>
 								<h3>Titulo</h3>
-								<span class="links-modal ">like-icon</span>
-								<!-- Modal Trigger -->
-								<span class="links-modal waves-effect waves-light" data-target="modal1">icon-expand</span>
+								<span class="links-modal icon-heart"></span>
+								<span class="links-modal waves-effect waves-light icon-link " data-target="modal2"></span>
 							</div>
 						</div>
 					</div>
+				</div>
 
 					  <!-- Modal Structure -->
-					  <div id="modal1" class="modal">
-					    <div class="modal-content ">
-					    	<div class="row" style="background-color: peru;margin: 0">
-					    		<div class="col xl6 m6 s12 p-0">
-			    					<img class="responsive-img" src="img/fondo/leavehand.jpg" alt="">
-			    				</div>
-
-				    			<div class="col xl6 m6 s12">
-				    				<div class="content">
-				    					<h4>01</h4>
-					    				<h5>Titulo</h5>
-					    				<p>EL proyecto tuvo como finalidad demostrar el uso de las herraientas aprendidas durante el srping..., el tiempo permitido para la ejecución fue de ..... ENtre las dificultades encontradas se encontraron; sin embargo se pudo solciona plicando....</p>
-					    				<a href="">MAS DETALLES</a>
-				    				</div>
-				    			</div>
+					<div id="modal2" class="modal" >
+					    <div class="modal-content">
+				    		<button class="modal-close left" data-dismiss="modal" aria-label="Close"><a class="black-text md-52 "  aria-hidden="true">&times;</a>
+				    		</button>
+							<div class="row m-0 content " >
+								<div class="col xl6 m 12 s12" >
+									<h1 class="m-0 light-text">02</h1>
+				    				<h4 class="">TITULO</h4>
+				    				<p>EL proyecto tuvo como finalidad demostrar el uso de las herraientas aprendidas durante el srping..., el tiempo permitido para la ejecución fue de ..... ENtre las dificultades encontradas se encontraron; sin embargo se pudo solciona plicando....</p>
+				    				<a class="black-text" href="">VER PROYECTO</a>
+				    				<span class="icons icon-github right"></span>
+								</div>
+								<img class="col xl6 m12 s12 responsive-img p-0" src="img/fondo/leavehand.jpg" alt="">	
 					    	</div>
 					    </div>
-					  </div>
-				</div>
+					</div> 
+			
+
 				<div class="col xl4">
 					<div class="proyecto">
 						<img src="img/fondo/leaves-yellow.jpg" alt="">
 						<div class="overlay">
-							<div class="text center-align">
+							<div class="white-text center-align">
 								<span>Temas aplicados</span>
 								<h3>Titulo</h3>
-								<span class="links-modal">like-icon</span>
-								<span class="links-modal">icon-expand</span>
+								<span class="links-modal icon-heart"></span>
+								<span class="links-modal waves-effect waves-light icon-link " data-target="modal3"></span>
 							</div>
 						</div>
 					</div>
 				</div>
 
+
+				<!-- Modal Structure -->
+				  <div id="modal3" class="modal" >
+				    <div class="modal-content">
+			    		<button class="modal-close right " data-dismiss="modal" aria-label="Close"><a class="black-text md-52 "  aria-hidden="true">&times;</a>
+			    		</button>
+						<div class="row m-0 content " >
+							<img class="col xl6 m12 s12 responsive-img p-0" src="img/fondo/leaves-yellow.jpg" alt="">	
+							<div class="col xl6 m12 s12" >
+								<h1 class="m-0 light-text">03</h1>
+			    				<h4 class="">TITULO</h4>
+			    				<p>EL proyecto tuvo como finalidad demostrar el uso de las herraientas aprendidas durante el srping..., el tiempo permitido para la ejecución fue de ..... ENtre las dificultades encontradas se encontraron; sin embargo se pudo solciona plicando....</p>
+			    				<a class="black-text" href="">VER PROYECTO</a>
+			    				<span class="icons icon-github right"></span>
+								
+							</div>
+				    	</div>
+				    </div>
+				</div> 
+			</div>
+
+			<div class="row">
 				<div class="col xl4 ">
 					<div class="proyecto">
 						<img src="img/fondo/leaves2.jpg" alt="">
 						<div class="overlay">
-							<div class="text center-align">
+							<div class="white-text center-align">
 								<span>Temas aplicados</span>
 								<h3>Titulo</h3>
-								<span class="links-modal">like-icon</span>
-								<span class="links-modal">icon-expand</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col xl4 ">
-					<div class="proyecto">
-						<img src="img/fondo/leaves.jpg" alt="">
-						<div class="overlay">
-							<div class="text center-align">
-								<span>Temas aplicados</span>
-								<h3>Titulo</h3>
-								<span class="links-modal">like-icon</span>
-								<span class="links-modal">icon-expand</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col xl4 ">
-					<div class="proyecto">
-						<img src="img/fondo/leaves0.jpg" alt="">
-						<div class="overlay">
-							<div class="text center-align">
-								<span>Temas aplicados</span>
-								<h3>Titulo</h3>
-								<span class="links-modal">like-icon</span>
-								<span class="links-modal">icon-expand</span>
+								<span class="links-modal icon-heart"></span>
+								<span class="links-modal waves-effect waves-light icon-link " data-target="modal4"></span>
 							</div>
 						</div>
 					</div>
 				</div>
 
+				 <!-- Modal Structure -->
+				<div id="modal4" class="modal" >
+				    <div class="modal-content">
+			    		<button class="modal-close left" data-dismiss="modal" aria-label="Close"><a class="black-text md-52 "  aria-hidden="true">&times;</a>
+			    		</button>
+						<div class="row m-0 content " >
+							<div class="col xl6 m 12 s12" >
+								<h1 class="m-0 light-text">04</h1>
+			    				<h4 class="">TITULO</h4>
+			    				<p>EL proyecto tuvo como finalidad demostrar el uso de las herraientas aprendidas durante el srping..., el tiempo permitido para la ejecución fue de ..... ENtre las dificultades encontradas se encontraron; sin embargo se pudo solciona plicando....</p>
+			    				<a class="black-text" href="">VER PROYECTO</a>
+			    				<span class="icons icon-github right"></span>
+							</div>
+							<img class="col xl6 m12 s12 responsive-img p-0" src="img/fondo/leaves2.jpg" alt="">	
+				    	</div>
+				    </div>
+				</div> 
+
+	
+
+				<div class="col xl4 ">
+					<div class="proyecto">
+						<img src="img/fondo/leaves.jpg" alt="">
+						<div class="overlay">
+							<div class="white-text center-align">
+								<span>Temas aplicados</span>
+								<h3>Titulo</h3>
+								<span class="links-modal icon-heart"></span>
+								<span class="links-modal waves-effect waves-light icon-link " data-target="modal5"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Modal Structure -->
+				  <div id="modal5" class="modal" >
+				    <div class="modal-content">
+			    		<button class="modal-close right " data-dismiss="modal" aria-label="Close"><a class="black-text md-52 "  aria-hidden="true">&times;</a>
+			    		</button>
+						<div class="row m-0 content " >
+							<img class="col xl6 m12 s12 responsive-img p-0" src="img/fondo/leaves.jpg" alt="">	
+							<div class="col xl6 m12 s12" >
+								<h1 class="m-0 light-text">05</h1>
+			    				<h4 class="">TITULO</h4>
+			    				<p>EL proyecto tuvo como finalidad demostrar el uso de las herraientas aprendidas durante el srping..., el tiempo permitido para la ejecución fue de ..... ENtre las dificultades encontradas se encontraron; sin embargo se pudo solciona plicando....</p>
+			    				<a class="black-text" href="">VER PROYECTO</a>
+			    				<span class="icons icon-github right"></span>
+								
+							</div>
+				    	</div>
+				    </div>
+				</div> 
+
+
+				<div class="col xl4 ">
+					<div class="proyecto">
+						<img src="img/fondo/leaves0.jpg" alt="">
+						<div class="overlay">
+							<div class="white-text center-align">
+								<span>Temas aplicados</span>
+								<h3>Titulo</h3>
+								<span class="links-modal icon-heart"></span>
+								<span class="links-modal waves-effect waves-light icon-link " data-target="modal6"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				 <!-- Modal Structure -->
+				<div id="modal6" class="modal" >
+				    <div class="modal-content">
+			    		<button class="modal-close left" data-dismiss="modal" aria-label="Close"><a class="black-text md-52 "  aria-hidden="true">&times;</a>
+			    		</button>
+						<div class="row m-0 content " >
+							<div class="col xl6 m 12 s12" >
+								<h1 class="m-0 light-text">04</h1>
+			    				<h4 class="">TITULO</h4>
+			    				<p>EL proyecto tuvo como finalidad demostrar el uso de las herraientas aprendidas durante el srping..., el tiempo permitido para la ejecución fue de ..... ENtre las dificultades encontradas se encontraron; sin embargo se pudo solciona plicando....</p>
+			    				<a class="black-text" href="">VER PROYECTO</a>
+			    				<span class="icons icon-github right"></span>
+							</div>
+							<img class="col xl6 m12 s12 responsive-img p-0" src="img/fondo/leaves0.jpg" alt="">	
+				    	</div>
+				    </div>
+				</div> 
 			</div>
 		</div>
 	</section>
+
+
 	<section id="contact">
 		<div class="container-fluid center-align">
 			<div class="row">
 				<div class="col xl12  title hide-on-med-and-down">
 					<h2>CONTACTO</h2>
 					<h3>Contáctame</h3>
-					<h5>Si tienes alguna duda o consulta, no dudes en ponerte en contacto conmigo.</h5>
+					<p>Si tienes alguna duda o consulta, no dudes en ponerte en contacto conmigo.</p>
 				</div>
 				<div class="col xl12  title title2 hide-on-large-only">
 					<h2>CONTACTO2</h2>
 					<h3>Contáctame</h3>
-					<h5>Si tienes alguna duda o consulta, no dudes en ponerte en contacto conmigo.</h5>
+					<p>Si tienes alguna duda o consulta, no dudes en ponerte en contacto conmigo.</p>
 				</div>
 			</div>
 			<div class="row ">
 				<div class="col xl12 s12">
 					<div>
 						<span class="icon-phone">icon</span>
+						<span class="icon-phone_iphone"></span>
+						<spanc class="icon-settings_cell"></span>
 						<h5><strong>Teléfono:</strong></h5><h5>951381875</h5>
 					</div>
 					<div>
 						<span class="icon-email">icon</span>
+						<span class="icon-mail_outline">icon</span>
+						<span class="icon-mail3"></span>
+
 						<h5><strong>Email:</strong></h5><h5>rocio.emma.tapia.alva@gmail.com</h5>
 					</div>
 				</div>
@@ -233,18 +338,39 @@
 			</div>
 
 			<div class="redes">
-				<span class="icons-red">Git</span>
-				<span class="icons-red">COde</span>
-				<span class="icons-red">Link</span>
-				<span class="icons-red">otro</span>
+				<span class="icon-phone">Git</span>
+				<span class="icon-camera">COde</span>
+				<span class="icon-favorite_border">Link</span>
+				<span class="icon-mail_outline">otro</span>
+				<span class="icon-phone_iphone">otro</span>
+				<span class="icon-settings_cell">otro</span>
+				<span class="icon-home">otro</span>
+				<span class="icon-profile">otro</span>
+				<span class="icon-location">otro</span>
+				<span class="icon-location2">otro</span>
+				<span class="icon-link">otro</span>
+				<span class="icon-new-tab">otro</span>
+				<span class="icon-mail3">otro</span>
+				<span class="icon-google-plus">otro</span>
+				<span class="icon-google-plus3">otro</span>
+				<span class="icon-whatsapp">otro</span>
+				<span class="icon-flickr2">otro</span>
+				<span class="icon-github">otro</span>
+				<span class="icon-skype">otro</span>
+				<span class="icon-linkedin">otro</span>
+				<span class="icon-linkedin2">otro</span>
+				<span class="icon-pinterest">otro</span>
+				<span class="icon-html-five">otro</span>
+				<span class="icon-html-five2">otro</span>
+				<span class="icon-css3">otro</span>
+				<span class="icon-codepend">codepen</span>
 			</div>
 		</div>
-
 	</section>
 	<footer class="footer-copyright center">
 		<p>&copy; 2017 por Rocio Emma Tapia Alva</p>
-
-	</footer>
+		<button class="btn-floating">back</button>
+	</footer>	
 
 	<script type="text/javascript" src="js/vendor/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/vendor/materialize.min.js"></script>

@@ -5579,10 +5579,10 @@ button.btn-floating {
   position: fixed;
   left: 0;
   right: 0;
-  background-color: transparent;
-  padding: 20px 0; /*modify*/
+  background-color: #878484;/*modify*/
+  padding: 5px 15px; /*modify*/
   max-height: 85%;  /*modify*/
-  width: 85%;  /*modify*/
+  width: 80%;  /*modify*/
   margin: auto;
   overflow-y: auto;
   border-radius: 2px;
@@ -5620,19 +5620,18 @@ button.btn-floating {
   margin: 6px 0;
 }
 
-.modal-overlay {
-  position: fixed;
-  z-index: 999;
-  top: -100px;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: 125%;
-  width: 100%;
-  background: #000;
-  display: none;
-  will-change: opacity;
-
+.modal-overlay{
+  position:fixed;
+  z-index:999;
+  top:-100px;
+  left:0;
+  bottom:0;
+  right:0;
+  height:125%;
+  width:100%;
+  background:#000;
+  display:none;
+  will-change:opacity
 }
 
 .modal.modal-fixed-footer {
@@ -5894,7 +5893,7 @@ select:focus {
 
 button:focus {
   outline: none;
-  background-color: #2ab7a9;
+  background-color: none;
 }
 
 label {
