@@ -1,3 +1,25 @@
+/*@font-face {
+font-family: "Material-Design-Icons";
+src: url("../font/material-design-icons/Material-Design-Icons.eot?#iefix") format("embedded-opentype"), url("../font/material-design-icons/Material-Design-Icons.woff2") format("woff2"), url("../font/material-design-icons/Material-Design-Icons.woff") format("woff"), url("../font/material-design-icons/Material-Design-Icons.ttf") format("truetype"), url("../font/material-design-icons/Material-Design-Icons.svg#Material-Design-Icons") format("svg");
+font-weight: normal;
+font-style: normal; }
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}*/
+
 *{
 	font-family: 'Raleway', sans-serif;
 	/*font-family: 'Lato', sans-serif;
@@ -217,22 +239,37 @@ section{
 .title, .title2{
 	position: relative;
 }
-.title h2, .title2 h2{
+.title h2{
     font-family: 'Montserrat';
 	font-weight: bold;
 	letter-spacing: 5px;
 	font-size: 9rem;
-/*	color: rgba(237,251,244,0.8);*/
-/*    color: rgba( 69, 59, 57, 0.5 )*/
-        color: rgba( 148, 148, 148, 0.3 );
+	color: rgba( 148, 148, 148, 0.3 );
 }
-.title h3, .title2 h3{
+.title2 h2{
+    font-family: 'Montserrat';
+	font-weight: bold;
+	letter-spacing: 5px;
+	font-size: 3rem;
+	/*color: rgba( 148, 148, 148, 0.3 );*/
+	font-weight: 900;
+	letter-spacing: 5px;
+	color: rgb(230,280,244);
+}
+
+.title h3{
 	position: relative;
 	bottom: 5.7rem;
-/*	right: 4.0%;*/
 	text-align: center;
 	font-size: 3rem;
 }
+
+.title2 h3{
+	position: relative;
+	bottom: 5.7rem;
+	text-align: center;
+	font-size: 2rem;
+} 
 .title h5{
     position: absolute;
     bottom: 20px;
@@ -242,13 +279,7 @@ strong{
 	color: rgba( 20, 178, 75, 0.8);
 }
 
-.title2 h2{
-	font-weight: 900;
-	letter-spacing: 5px;
-	font-size: 5.5rem;
-	color: rgb(230,280,244);
 
-}
 .intro{
 	background-color: red;
 }
