@@ -155,7 +155,7 @@ ul{
 #myCanvas{
     position: absolute;
     top: 130px;
-    width: 500px;
+    width: 100%;
     height: 500px;
     /*border: 2px solid blue;*/
     background-color:  rgba( 148, 148, 148, 0.75 );
@@ -348,6 +348,10 @@ strong{
 	font-weight: bold;
 	border-bottom: 1px solid black;
 }
+.content p{
+	font-size: small;
+	margin-top: 10px;
+}
 .modal-content div img{
 	width: 100%;
 	height: 100%;
@@ -367,6 +371,8 @@ strong{
 .modal-close, .modal-close:active{
 	background: none;
 	border:none;
+	right: 4%;
+	top: 4%;
 }
 .modal-close.right a{
 	margin-right: 20px;
