@@ -179,43 +179,46 @@ section{
 }
 .title, .title2{
 	position: relative;
+	
 }
 .title h2{
-    font-family: 'Montserrat';
+	font-family: 'Montserrat';
 	font-weight: bold;
 	letter-spacing: 5px;
 	font-size: 9rem;
 	color: rgba( 148, 148, 148, 0.3 );
 }
 .title2 h2{
-    font-family: 'Montserrat';
-	font-weight: bold;
-	letter-spacing: 5px;
-	font-size: 2rem;
-	/*color: rgba( 148, 148, 148, 0.3 );*/
-	font-weight: 900;
-	letter-spacing: 5px;
-	color: rgb(230,280,244);
+	font-family: 'Montserrat';
+    font-weight: bolder;
+	font-size: 3.1rem;
+	color: rgba( 148, 148, 148, 0.3 );
+	letter-spacing: 2px;
 }
 
 .title h3{
 	position: relative;
-	bottom: 5.7rem;
+	bottom: 5.9rem;
 	text-align: center;
 	font-size: 3rem;
-}
-
+	letter-spacing: 3px;
+} 
 .title2 h3{
 	position: relative;
-	bottom: 5.7rem;
+	bottom: 2rem;
 	text-align: center;
-	font-size: 2rem;
-} 
+	font-size: 1.5rem;
+}
+
 .title h5{
     position: absolute;
-    bottom: 20px;
-    right: 13.5%;
+    bottom: 13px;
+    right: 5.5%;
 }
+.title2 h6{
+   
+}
+
 
 .intro{
 	background-color: red;
@@ -228,19 +231,19 @@ section{
 }
 .description{
     color:#fff;
-    padding: 30px;
-    /*padding-top: 40px;*/
-    margin-top: 30px;
+    padding: 20px;
 }
 .description p{
-	font-size: 1rem;
-	
+	font-size: small;
+}
+.description i{
+	font-weight: bold;
 }
 .mt-50{
 	margin-top: 50px;
 }
 .enlaces{
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 .enlaces span{
@@ -449,13 +452,8 @@ strong{
 	    margin-top: 15px;
 	    margin-bottom: 40px;
 	}  
-	.photo{
-	background-image: url("../img/Emma_Tapia.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 58vh;
 
-	}  
 }
+
+
 
