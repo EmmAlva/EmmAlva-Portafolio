@@ -67,6 +67,7 @@ header .container{
 .portada{
 	margin-bottom: -1%;
 }
+/*Menu HAMBURGER*/
 .sub_title{
 	font-size: 1.2rem;   
 }
@@ -102,30 +103,6 @@ header .container{
 .menu_mv{
 	margin-top: 5%;
 }
-
-/*Large screen*/
-@media screen and (min-width: 770px) {
-    .portada{
-        background-color: rgba( 148, 148, 148, 0.75 );
-        margin-bottom: 0;
-    }
-	.name{
-	    font-weight: bold;
-	    font-size: 9rem;
-	}
-	.sub_title{
-		font-size: 1.7rem;
-		padding: 15px;
- 	}
-	.btn-inicial{
-		background: rgb(0, 107, 37);
-	    padding: 12px;
-	    width: 184px;
-	    margin-top: 15px;
-	    margin-bottom: 40px;
-	}    
-}
-
 .name-sm{
     font-weight: bold;
     font-size: 11rem; 
@@ -251,7 +228,8 @@ section{
 }
 .description{
     color:#fff;
-    padding: 40px;
+    padding: 30px;
+    /*padding-top: 40px;*/
     margin-top: 30px;
 }
 .description p{
@@ -446,3 +424,38 @@ footer p{
 	margin:0;
 	color: #fff;
 }
+strong{
+	color: #066213;
+}
+
+/*Large screen*/
+@media screen and (min-width: 770px) {
+    .portada{
+        background-color: rgba( 148, 148, 148, 0.75 );
+        margin-bottom: 0;
+    }
+	.name{
+	    font-weight: bold;
+	    font-size: 9rem;
+	}
+	.sub_title{
+		font-size: 1.7rem;
+		padding: 15px;
+ 	}
+	.btn-inicial{
+		background: rgb(0, 107, 37);
+	    padding: 12px;
+	    width: 184px;
+	    margin-top: 15px;
+	    margin-bottom: 40px;
+	}  
+	.photo{
+	background-image: url("../img/Emma_Tapia.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 58vh;
+
+	}  
+}
+
