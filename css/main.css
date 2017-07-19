@@ -127,9 +127,6 @@ header .container{
     top: 3%;
     right: 4%;
 }
-#sidenav-overlay{
-}
-
 
 
 
@@ -455,6 +452,9 @@ a.select-label:last-child span{
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
+}
+.fa-angle-double-up{
+	font-weight: 700;
 }
 .back:hover{
 	background-color:  rgba(32, 90, 51, 1); ;
