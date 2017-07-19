@@ -68,7 +68,7 @@
 
 /*ESTRUCTURA*/
 header{
-	background-image: url("../img/fondo/leaves-green-purple.jpg");
+	background-image: url("../img/leaves-green-purple.jpg");
 	width: 100%;
 	height: 100vh;
 	background-attachment: fixed; 
@@ -126,6 +126,8 @@ header .container{
     position: absolute;
     top: 3%;
     right: 4%;
+}
+#sidenav-overlay{
 }
 
 

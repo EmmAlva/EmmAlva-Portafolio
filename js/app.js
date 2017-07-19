@@ -1,6 +1,18 @@
 $(document).ready(function(){
     // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
     $(".button-collapse").sideNav();
+    //SIDE-NAV show hide
+
+    $('.menu_mv').on('click', function(){
+      $('ul').css({
+        transform: 'translateX(-100%)',
+      });
+     /* $('#sidena-overlay').css({'background-color': 'pink',
+      });*/
+    })
+
+
+
     $('.modal').modal();  
 
 // Back to top
